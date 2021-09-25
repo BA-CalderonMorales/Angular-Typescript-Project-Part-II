@@ -1,0 +1,35 @@
+a {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  transition: 200ms ease-in-out;
+}
+
+a:hover {
+  color: black;
+  text-shadow: 2px;
+}
+
+.navbar__inner {
+  position: fixed;
+  padding: 1rem;
+}
+
+.navbar__inner > a {
+  position: fixed;
+  top: 2;
+  left: 1rem;
+  text-decoration: none;
+}
+
+.navbar__inner > span {
+  position: fixed;
+  top: 2;
+  right: 1rem;
+}
+
+.link {
+  padding: 1rem;
+  text-decoration: none;
+}

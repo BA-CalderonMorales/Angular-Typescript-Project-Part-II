@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-content: center;
+  height: 4rem;
+  width: 100%;
+  background-color: lightcoral;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: lightcoral;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
